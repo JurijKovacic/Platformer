@@ -269,21 +269,11 @@ def main():
     screen = pygame.display.set_mode(size)
  
     pygame.display.set_caption("speedy game")
- 
 
-    
     
     player = Player()
  
-    
-    def time_convert(sec):
-        mins = sec // 60
-        sec = sec % 60
-        hours = mins // 60
-        mins = mins % 60
-        čas = ('Vzelo ti je:{0}:{1}:{2}'.format(int(hours),int(mins),sec))
-        
-    
+           
     level_list = []
     level_list.append(Level_01(player))
     
